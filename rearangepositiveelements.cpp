@@ -11,7 +11,7 @@ void rearange(int A[] , int n)
 	vector<int>pos;
 	vector<int>neg;
 	
-	for(int i=0; i <= n; i++)
+	for(int i=0; i < n; i++)
 	{
 		if(A[i] > 0)
 		{
@@ -19,7 +19,7 @@ void rearange(int A[] , int n)
 		}
 		
 	}
-	for(int i=0; i <= n; i++)
+	for(int i=0; i < n; i++)
 	{
 	   if(A[i] < 0)
 	   {
@@ -59,7 +59,7 @@ void rearange(int A[] , int n)
 }
 void print_array(int A[] , int n)
 {
-	for(int i=0; i <= n; i++)
+	for(int i=0; i < n; i++)
 	{
 		cout<<A[i]<<endl;
 	}
